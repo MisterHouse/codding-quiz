@@ -1,0 +1,39 @@
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+
+#quiz-container {
+    display: block;
+}
+
+#game-over-container {
+    display: block;
+}
+#timer {
+    text-align:right;
+}
+#question-container{
+    font-size: medium;
+    text-align: left;
+}
+#start-btn {
+    text-align: center;
+}
+#hight-scores{
+    color:violet;
+    text-align:left;
+}
+#choices-container button{
+    padding:5px;
+    margin:2px;
+    display:block;
+    border: 1px;
+    border-color: black;
+    border-radius: 2px;
+    background-color:blueviolet;
+}
+#choices-container button :hover {
+    background-color: violet;
+    }
